@@ -20,34 +20,26 @@ import { getId } from './helper';
  */
 
 export const socialLinks: StringKeyValueType = {
-  facebook: 'https://www.facebook.com/vatsalsinghkv',
-  instagram: 'https://www.instagram.com/vatsalsinghkv',
-  twitter: 'https://twitter.com/vatsalsinghkv',
-  github: 'https://github.com/vatsalsinghkv',
-  linkedin: 'https://www.linkedin.com/in/vatsalsinghkv/',
+  github: 'https://github.com/gsilverio7',
+  linkedin: 'https://www.linkedin.com/in/gabriel-silvério-526171192/',
 };
 
 export const author = {
-  name: 'Vatsal Singh',
-  email: 'vatsalsinghkv@gmail.com',
+  name: 'Gabriel Silverio',
+  email: 'bielsil27@gmail.com',
 };
 
 export const seoData = {
-  title: 'Vatsal Singh | Front-End Developer',
+  title: 'Gabriel Silvério | Web Developer',
   description:
-    'Vatsal Singh is a front-end developer who specializes in building (and occasionally designing) exceptional visual interfaces.',
+    'Gabriel Silvério é um desenvolvedor web',
   author: author.name,
   image:
     'https://user-images.githubusercontent.com/68834718/217467445-0b0d2d63-f8ad-4702-8474-814eb2cbb3be.png',
   url: 'https://vatsalsinghkv.vercel.app/',
   keywords: [
-    'Vatsal',
-    'Vatsal Singh',
-    '@vatsalsinghkv',
-    'vatsalsinghkv',
-    'Portfolio',
-    'Vatsal Portfolio ',
-    'Vatsal Singh Portfolio',
+    'Gabriel',
+    'Gabriel Silvério'
   ],
 };
 
@@ -61,14 +53,14 @@ export const seoData = {
 
 export const navbarSection: NavbarSectionType = {
   navLinks: [
-    { name: 'about', url: '/#about' },
-    { name: 'skills', url: '/#skills' },
-    { name: 'experience', url: '/#experience' },
-    { name: 'projects', url: '/#projects' },
-    { name: 'contact', url: '/#contact' },
+    { name: 'sobre', url: '/#about' },
+    { name: 'habilidades', url: '/#skills' },
+    { name: 'experiencia', url: '/#experience' },
+    { name: 'projetos', url: '/#projects' },
+    { name: 'contato', url: '/#contact' },
   ],
   cta: {
-    title: 'resume',
+    title: 'Curriculo',
     url: `/${resumeFileName}`,
   },
 };
@@ -76,14 +68,14 @@ export const navbarSection: NavbarSectionType = {
 // * Hero Section
 
 export const heroSection: HeroSectionType = {
-  subtitle: 'Hi, my name is',
-  title: 'vatsal singh.',
-  tagline: 'I create visually pleasing interfaces for the web.',
+  subtitle: 'Prazer em conhecer, me chamo',
+  title: 'Gabriel Silvério.',
+  tagline: 'Desenvolvedor Web',
   description:
-    "I'm a passionate Front-End web developer having an experience of web applications with React.js & Next.js with TypeScript & TailwindCSS and UI/UX designing.",
+    "Sou um desenvolvedor web com mais de 03 anos de experiência, trabalhando principalmente com Javascript, PHP, Laravel e MySQL",
   // description:
   //   "I'm a passionate Full Stack web developer having an experience of web  applications with React.js, Next.js and Blockchain development on Ethereum, Solidity and Web3.js.",
-  specialText: 'Currently available for remote job & freelance',
+  // specialText: 'Currently available for remote job & freelance',
   // either button or simple text (information)
   cta: {
     title: 'see my resume',
@@ -95,62 +87,65 @@ export const heroSection: HeroSectionType = {
 // * About Section
 
 export const aboutSection: AboutSectionType = {
-  title: 'about me',
+  title: 'sobre',
   // Paragraphs need to be changed from containers/About.tsx
   // Because it wasn't possible to insert anchor tags like this
   list: {
-    title: 'Here are a few technologies I’ve been working with recently:',
+    title: 'Algumas das tecnologias que tenho trabalhado e estudado recentemente:',
     items: [
-      'NextJs',
-      'TailwindCSS',
-      'ExpressJs',
-      'Solidity',
+      'PHP',
+      'Laravel',
+      'MySQL',
+      'JavaScript',
       'TypeScript',
-      'CSS Animations',
+      'Nodejs',
+      'Java'
+      // 'API Rest',
+      // 'Test Driven Development',
     ],
   },
-  img: '/vatsal-singh.jpg',
+  img: '/myProfile.jpg',
 };
 
 // * Skills Section
 
 export const skillsSection: SkillsSectionType = {
-  title: 'what i do',
+  title: 'Habilidades',
   skills: [
     {
       id: getId(),
-      title: 'full stack development',
+      title: 'desenvolvimento full stack',
       // animation lottie file: https://lottiefiles.com/
       lottie: {
-        light: '/lotties/frontend.json',
-        dark: '/lotties/frontend-dark.json',
+        //light: '/lotties/frontend.json',
+        light: '/lotties/91451-developer-blue.json',
+        //dark: '/lotties/frontend-dark.json',
+        dark: '/lotties/91451-developer-blue.json',
       },
       points: [
-        'Building responsive static websites using Next.js',
-        'Building responsive Single Page Apps in React.js',
-        'Building RESTful APIs in Express',
+        'Desenvolvimento de aplicações web completas',
+        'Desenvolvimento de APIs RESTful ou GraphQl',
+        'Desenvolvimento seguindo as melhores práticas e padrões, como SOLID, Clean Code e TDD',
       ],
       softwareSkills: [
         // iconify icons: https://icon-sets.iconify.design/
-        { name: 'html-5', icon: 'vscode-icons:file-type-html' },
-        { name: 'CSS-3', icon: 'vscode-icons:file-type-css' },
-        { name: 'sass', icon: 'vscode-icons:file-type-sass' },
+        { name: 'HTML5', icon: 'vscode-icons:file-type-html' },
+        { name: 'CSS3', icon: 'vscode-icons:file-type-css' },
         { name: 'javaScript', icon: 'vscode-icons:file-type-js-official' },
         {
           name: 'typeScript',
           icon: 'vscode-icons:file-type-typescript-official',
         },
-        { name: 'python', icon: 'vscode-icons:file-type-python' },
         { name: 'nodejs', icon: 'logos:nodejs-icon' },
         { name: 'reactjs', icon: 'logos:react' },
-        { name: 'nextjs', icon: 'logos:nextjs-icon' },
-        // { name: 'angularjs', icon: 'logos:angular-icon' },
-        { name: 'tailwindcss', icon: 'logos:tailwindcss-icon' },
-        { name: 'redux', icon: 'logos:redux' },
-        { name: 'database', icon: 'vscode-icons:file-type-sql' },
+        // { name: 'express', icon: 'logos:express' },
         { name: 'jest', icon: 'vscode-icons:file-type-jest' },
+        { name: 'PHP', icon: 'logos:php' },
+        { name: 'laravel', icon: 'logos:laravel' },
+        { name: 'mySQL', icon: 'logos:mysql' },
       ],
     },
+    /*
     {
       id: getId(),
       title: 'UI/UX designing',
@@ -169,6 +164,7 @@ export const skillsSection: SkillsSectionType = {
         { name: 'adobe photoshop', icon: 'logos:adobe-photoshop' },
       ],
     },
+    */
     /* {
       id: getId(),
       title: 'blockchain development',
@@ -194,14 +190,14 @@ export const skillsSection: SkillsSectionType = {
 // * Experience Section
 
 export const experienceSection: ExperienceSectionType = {
-  title: "where i've worked",
+  title: "Experiência",
   experiences: [
     {
-      company: 'SHMTH Capital',
-      companyUrl: 'https://www.linkedin.com/company/shmth-capital/about/',
-      role: 'frontend developer intern',
-      started: 'april 2023',
-      upto: 'july 2023',
+      company: 'Previsiown',
+      companyUrl: 'https://www.linkedin.com/company/previsiown/',
+      role: 'desenvolvedor full stack',
+      started: 'dezembro 2020',
+      upto: 'atualmente',
       tasks: [
         'Built trading platform using TradingView library.',
         'Designed SHMTH Capital website with Next.js, TypeScript & TailwindCSS.',
@@ -209,11 +205,11 @@ export const experienceSection: ExperienceSectionType = {
       ],
     },
     {
-      company: 'webnetics',
-      companyUrl: 'https://webnetic.vercel.app/',
-      role: 'frontend developer',
-      started: 'june 2022',
-      upto: 'january 2023',
+      company: 'DEC9',
+      companyUrl: 'https://www.linkedin.com/company/dec9-marketing-e-tecnologia/',
+      role: 'estagiário',
+      started: 'julho 2020',
+      upto: 'setembro 2020',
       tasks: [
         'Built static frontend UI from the ground up using Next.js and Figma handover designs.',
         'Architected the folder structure and initial setup of the app.',
@@ -222,11 +218,11 @@ export const experienceSection: ExperienceSectionType = {
       ],
     },
     {
-      company: 'Kronos',
-      companyUrl: 'https://kronos-sscbs-21.github.io/proj-kronos-site/',
-      role: 'designer & developer',
-      started: 'january 2021',
-      upto: 'june 2021',
+      company: 'UFFTech',
+      companyUrl: 'https://www.linkedin.com/company/ufftech/',
+      role: 'diretor de Projetos',
+      started: 'junho 2019',
+      upto: 'julho 2020',
       tasks: [
         'Designed social media posts.',
         'Worked remotely with designing & tech team.',
@@ -238,7 +234,7 @@ export const experienceSection: ExperienceSectionType = {
 // * Projects Section
 
 export const projectsSection: ProjectsSectionType = {
-  title: 'my projects',
+  title: 'projetos',
   projects: [
     {
       id: getId(),
@@ -371,11 +367,11 @@ export const projectsSection: ProjectsSectionType = {
 // * Contact Section
 
 export const contactSection: ContactSectionType = {
-  title: 'get in touch',
-  subtitle: "what's next",
+  title: 'Vamos conversar!',
+  subtitle: "contato",
   paragraphs: [
-    'I’m currently looking for a remote job or any new opportunities.',
-    'Whether you have a project to discuss or just want to say hi, my inbox is open for all!',
+    'Caso tenha se interessado, me mande um email, e vamos juntos criar em algo incrível!',
+    //'Whether you have a project to discuss or just want to say hi, my inbox is open for all!',
   ],
   link: `mailto:${author.email}`,
 };
@@ -389,20 +385,8 @@ export const socialSection: SocialSectionType = {
       url: socialLinks.github,
     },
     {
-      icon: 'mdi:instagram',
-      url: socialLinks.instagram,
-    },
-    {
-      icon: 'lucide:twitter',
-      url: socialLinks.twitter,
-    },
-    {
       icon: 'lucide:linkedin',
       url: socialLinks.linkedin,
-    },
-    {
-      icon: 'lucide:facebook',
-      url: socialLinks.facebook,
     },
   ],
 };
@@ -410,6 +394,6 @@ export const socialSection: SocialSectionType = {
 // Footer Section
 
 export const footerSection: FooterSectionType = {
-  title: 'Design & Built by Vatsal Singh',
+  title: 'Designed by Vatsal Singh',
   link: 'https://github.com/vatsalsinghkv/portfolio-website',
 };

@@ -19,24 +19,13 @@ const About = () => {
       <main className="flex flex-col items-center gap-16 lg:items-start lg:flex-row">
         <div className="space-y-4 lg:w-3/5">
           <p>
-            Hi, my name is Vatsal Singh, an artist as well as crazy full stack
-            web developer who wants to explore every tech stack.
+            Olá, meu nome é Gabriel Silvério. Sou cristão, apaixonado por tecnologia e videogame. 
           </p>
           <p>
-            Fast-forward to today, and I’ve had the privilege of working at a
-            start-up -{' '}
-            <Link
-              href="https://webnetic.vercel.app/"
-              target="_blank"
-              className="text-accent"
-            >
-              Webnetics
-            </Link>
-            .
+            Comecei a estudar programação em 2019 aprendendo Fortran e depois Python, e nunca mais saí desse mundo.
           </p>
           <p>
-            My main focus these days is learning mobile development and finding
-            a decent remote job.
+            O que me motiva é poder usar da tecnologia para ajudar as pessoas e tornar sua vida melhor.
           </p>
 
           {list && (

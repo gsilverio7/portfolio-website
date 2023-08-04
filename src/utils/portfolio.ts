@@ -260,15 +260,6 @@ export const projectsSection: ProjectsSectionType = {
       year: 2023,
       tags: ['PHP', 'PHPUnit', 'Swagger'],
     },
-    {
-      id: getId(),
-      name: 'Todo App',
-      url: '',
-      repo: 'https://github.com/gsilverio7/TodoApp',
-      img: 'https://raw.githubusercontent.com/gsilverio7/TodoApp/master/imgs/main-todoapp.png',
-      year: 2023,
-      tags: ['Java'],
-    },
   ],
 };
 

@@ -3,7 +3,7 @@ import { Button, Wrapper } from '../components';
 import { contactSection } from '../utils/portfolio';
 
 const Contact = () => {
-  const { subtitle, title, paragraphs, link } = contactSection;
+  const { subtitle, title, paragraphs, link, buttonText } = contactSection;
   return (
     <Wrapper
       id="contact"
@@ -20,7 +20,7 @@ const Contact = () => {
       ))}
 
       <Button type="link" size="lg" href={link} center className="mt-12">
-        Say Hello
+        {buttonText}
       </Button>
     </Wrapper>
   );

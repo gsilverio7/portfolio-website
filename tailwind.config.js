@@ -7,7 +7,7 @@ module.exports = {
       fontFamily: {
         signature: ['agustina', 'sans-serif'],
         sans: ['Inter', 'sans-serif'],
-        mono: ['Roboto Mono', 'monospace'],
+        mono: ['Roboto Mono', 'monospace']
       },
       screens: {
         xs: '375px',

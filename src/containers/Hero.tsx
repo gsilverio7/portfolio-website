@@ -4,6 +4,7 @@ import useWindowWidth from '../hooks/use-window-width';
 import { getBreakpointsWidth } from '../utils/helper';
 import { heroSection } from '../utils/portfolio';
 import { motion } from 'framer-motion';
+import { TypeAnimation } from 'react-type-animation';
 
 const Hero = () => {
   const { cta, subtitle, title, tagline, description, specialText } =
@@ -45,7 +46,20 @@ const Hero = () => {
           animate="show"
           className="leading-[1.2]"
         >
-          {tagline}
+          {/* {tagline} */}
+          <TypeAnimation
+            sequence={[
+              'Desenvolvedor Web',
+              2000,
+              'Desenvolvedor Full Stack',
+              2000,
+              'Desenvolvedor Back End',
+              2000
+            ]}
+            wrapper="span"
+            speed={50}
+            repeat={Infinity}
+          />
         </motion.h1>
       </div>
 

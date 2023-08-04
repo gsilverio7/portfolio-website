@@ -61,6 +61,7 @@ export interface ContactSectionType extends Section {
   subtitle?: string;
   paragraphs: string[];
   link: string;
+  buttonText: string;
 }
 
 export interface SocialSectionType {

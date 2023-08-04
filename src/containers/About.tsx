@@ -19,14 +19,17 @@ const About = () => {
       <main className="flex flex-col items-center gap-16 lg:items-start lg:flex-row">
         <div className="space-y-4 lg:w-3/5">
           <p>
-            Olá, meu nome é Gabriel Silvério. Sou cristão, apaixonado por tecnologia e videogame. 
+            Olá, meu nome é Gabriel Silvério. Sou cristão, casado, apaixonado por tecnologia e videogame. 
+            O que mais me motiva é poder usar da tecnologia para ajudar as pessoas e tornar sua vida melhor.
           </p>
           <p>
             Comecei a estudar programação em 2019 aprendendo Fortran e depois Python, e nunca mais saí desse mundo.
+            Desde 2020 trabalho com desenvolvimento web. Atualmente estudo Análise e Desenvolvimento de Sistemas pela 
+            Universidade de Vassouras.
           </p>
-          <p>
+          {/* <p>
             O que me motiva é poder usar da tecnologia para ajudar as pessoas e tornar sua vida melhor.
-          </p>
+          </p> */}
 
           {list && (
             <>

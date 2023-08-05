@@ -120,9 +120,9 @@ export const skillsSection: SkillsSectionType = {
       // animation lottie file: https://lottiefiles.com/
       lottie: {
         //light: '/lotties/frontend.json',
-        light: '/lotties/91451-developer-blue.json',
+        light: '/lotties/dev-green2.json',
         //dark: '/lotties/frontend-dark.json',
-        dark: '/lotties/91451-developer-blue.json',
+        dark: '/lotties/dev-green2.json',
       },
       points: [
         'Desenvolvimento de aplicações web completas',

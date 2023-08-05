@@ -16,8 +16,8 @@
     /* Light Theme */
     --color-bg: theme(colors.slate.100);
     --color-bg-secondary: theme(colors.slate.50);
-    --color-accent: theme(colors.sky.500);
-    --color-accent-light: theme(colors.sky.500/0.1);
+    --color-accent: theme(colors.green.500);
+    --color-accent-light: theme(colors.green.500/0.1);
     --color-text: theme(colors.slate.600);
     --color-dark-1: theme(colors.slate.900);
     --color-dark-2: theme(colors.slate.700);
@@ -28,8 +28,8 @@
   .dark {
     --color-bg: rgb(2, 6, 23);
     --color-bg-secondary: theme(colors.slate.900);
-    --color-accent: theme(colors.sky.400);
-    --color-accent-light: theme(colors.sky.400/0.1);
+    --color-accent: theme(colors.green.400);
+    --color-accent-light: theme(colors.green.400/0.1);
     --color-text: theme(colors.slate.400);
     --color-dark-1: theme(colors.slate.200);
     --color-dark-2: theme(colors.slate.300);

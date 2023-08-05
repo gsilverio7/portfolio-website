@@ -1,6 +1,6 @@
 This favicon was generated using the following font:
 
-- Font Title: Unbounded
-- Font Author: Copyright 2022 The Unbounded Project Authors (https://github.com/googlefonts/unbounded)
-- Font Source: http://fonts.gstatic.com/s/unbounded/v3/Yq6F-LOTXCb04q32xlpat-6uR42XTqtG6xjx043HgP6LR0Y.ttf
+- Font Title: Inter
+- Font Author: Copyright 2020 The Inter Project Authors (https://github.com/rsms/inter)
+- Font Source: http://fonts.gstatic.com/s/inter/v12/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuFuYMZhrib2Bg-4.ttf
 - Font License: SIL Open Font License, 1.1 (http://scripts.sil.org/OFL))

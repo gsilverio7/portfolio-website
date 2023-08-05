@@ -24,7 +24,7 @@ const About = () => {
           </p>
           <p>
             Comecei a estudar programação em 2019 aprendendo Fortran e depois Python, e nunca mais saí desse mundo.
-            Desde 2020 trabalho com desenvolvimento web. Atualmente estudo Análise e Desenvolvimento de Sistemas pela 
+            Desde 2020 trabalho com desenvolvimento web, utilizando principalmente. Atualmente estudo Análise e Desenvolvimento de Sistemas pela 
             Universidade de Vassouras.
           </p>
           {/* <p>

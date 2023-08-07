@@ -312,6 +312,6 @@ export const socialSection: SocialSectionType = {
 // Footer Section
 
 export const footerSection: FooterSectionType = {
-  title: 'Credits to Vatsal Singh',
+  title: 'Créditos para Vatsal Singh',
   link: 'https://github.com/vatsalsinghkv/portfolio-website',
 };

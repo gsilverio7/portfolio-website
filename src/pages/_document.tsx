@@ -44,7 +44,7 @@ export default function Document() {
           sizes="16x16"
           href="/favicons/favicon-16x16.png"
         />
-        <script src="/scripts/no-flash.js"></script>
+        <script src="/scripts/no-flash.js" async />
       </Head>
       <body className="text-text bg-bg">
         <Main />

@@ -213,9 +213,10 @@ export const experienceSection: ExperienceSectionType = {
       started: 'dezembro 2020',
       upto: 'atualmente',
       tasks: [
-        'Built trading platform using TradingView library.',
-        'Designed SHMTH Capital website with Next.js, TypeScript & TailwindCSS.',
-        'Collaborated with diverse nationwide team of developers.',
+        'Desenvolvimento e manutenção de platatorma de CRM e de plataforma de testes de rodagem veicular.',
+        'Criação de rotinas, migrações, novas telas e cadastros, testes automatizados.',
+        'Trabalho com sistemas de controle de estoque, rastreamente de veículos, gerenciamento de documentos e outros.',
+        'HTML/CSS/Bootstrap/JavaScript/Jquery/PHP/Laravel/MySQL/Git',
       ],
     },
     {
@@ -225,10 +226,8 @@ export const experienceSection: ExperienceSectionType = {
       started: 'julho 2020',
       upto: 'setembro 2020',
       tasks: [
-        'Built static frontend UI from the ground up using Next.js and Figma handover designs.',
-        'Architected the folder structure and initial setup of the app.',
-        'Reviewed and approved multiple Pull requests.',
-        'Worked remotely with a distributed team from around the globe, collaborating closely using screen-sharing.',
+        'Desenvolvimento e manutenção de páginas web, como landing pages, sites instituicionais e e-commerces.',
+        'HTML/CSS/Bootstrap/JavaScript/WordPress/PHP/CodeIgniter',
       ],
     },
     {
@@ -238,8 +237,10 @@ export const experienceSection: ExperienceSectionType = {
       started: 'junho 2019',
       upto: 'julho 2020',
       tasks: [
-        'Designed social media posts.',
-        'Worked remotely with designing & tech team.',
+        'Desenvolvimento e manutenção de páginas web, como landing pages.',
+        'Treinar novos membros em desenvolvimento web.',
+        'Liderança da equipe de projetos, utilizando Scrum.',
+        'HTML/CSS/JavaScript/WordPress',
       ],
     },
   ],
@@ -267,6 +268,15 @@ export const projectsSection: ProjectsSectionType = {
       img: 'https://raw.githubusercontent.com/gsilverio7/PHPBibleAPI/master/pictures/phpbibleapi.png',
       year: 2023,
       tags: ['PHP', 'PHPUnit', 'Swagger'],
+    },
+    {
+      id: getId(),
+      name: 'Super Mario JavaScript',
+      url: 'https://gsilverio7.github.io/mario-javascript/',
+      repo: 'https://github.com/gsilverio7/mario-javascript',
+      img: 'https://raw.githubusercontent.com/gsilverio7/mario-javascript/master/imgs/super-mario-game-screenshot.png',
+      year: 2023,
+      tags: ['HTML', 'CSS', 'JavaScript'],
     },
   ],
 };

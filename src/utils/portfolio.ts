@@ -148,14 +148,12 @@ export const skillsSection: SkillsSectionType = {
         { name: 'PHPUnit', icon: 'vscode-icons:file-type-phpunit' },
         { name: 'laravel', icon: 'logos:laravel' },
         { name: 'AWS S3', icon: 'logos:aws-s3' },
-        // quero adicionar:
-        { name: 'AWS DynamoDB', icon: 'logos:aws-dynamodb' },
+        //{ name: 'AWS DynamoDB', icon: 'logos:aws-dynamodb' },
         { name: 'Docker', icon: 'skill-icons:docker' },
-        { name: 'MongoDB', icon: 'skill-icons:mongodb' },
-        { name: 'Redis', icon: 'logos:redis' },
+        //{ name: 'MongoDB', icon: 'skill-icons:mongodb' },
+        //{ name: 'Redis', icon: 'logos:redis' },
         { name: 'PostgreSQL', icon: 'logos:postgresql' },
         { name: 'SQLite', icon: 'skill-icons:sqlite' },
-        //
         { name: 'MySQL', icon: 'logos:mysql' },
       ],
     },

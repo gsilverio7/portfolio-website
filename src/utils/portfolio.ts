@@ -251,6 +251,15 @@ export const projectsSection: ProjectsSectionType = {
   projects: [
     {
       id: getId(),
+      name: 'Controle de Estoque',
+      url: 'https://controle-de-estoque.fly.dev',
+      repo: 'https://github.com/gsilverio7/controle-de-estoque',
+      img: 'https://raw.githubusercontent.com/gsilverio7/controle-de-estoque/main/screenshots/login.png',
+      year: 2023,
+      tags: ['Laravel', 'JQuery', 'MySQL'],
+    },
+    {
+      id: getId(),
       name: 'Be the hero',
       url: 'https://becomethehero.vercel.app',
       repo: 'https://github.com/gsilverio7/be-the-hero',

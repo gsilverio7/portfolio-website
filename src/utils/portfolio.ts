@@ -254,7 +254,7 @@ export const projectsSection: ProjectsSectionType = {
       name: 'Controle de Estoque',
       url: 'https://controle-de-estoque.fly.dev',
       repo: 'https://github.com/gsilverio7/controle-de-estoque',
-      img: 'https://raw.githubusercontent.com/gsilverio7/controle-de-estoque/main/screenshots/login.png',
+      img: 'https://raw.githubusercontent.com/gsilverio7/controle-de-estoque/main/screenshots/login-credentials.png',
       year: 2023,
       tags: ['Laravel', 'JQuery', 'MySQL'],
     },

@@ -119,15 +119,13 @@ export const skillsSection: SkillsSectionType = {
       title: 'desenvolvimento full stack',
       // animation lottie file: https://lottiefiles.com/
       lottie: {
-        //light: '/lotties/frontend.json',
         light: '/lotties/dev-green2.json',
-        //dark: '/lotties/frontend-dark.json',
         dark: '/lotties/dev-green2.json',
       },
       points: [
         'Desenvolvimento de aplicações web completas',
-        'Desenvolvimento de APIs RESTful ou GraphQl',
-        'Desenvolvimento seguindo as melhores práticas e padrões, como SOLID, Clean Code e TDD',
+        'Desenvolvimento de APIs RESTful',
+        'Desenvolvimento seguindo as melhores práticas e padrões, como SOLID e Clean Code',
       ],
       softwareSkills: [
         // iconify icons: https://icon-sets.iconify.design/

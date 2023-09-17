@@ -209,9 +209,9 @@ export const experienceSection: ExperienceSectionType = {
       started: 'dezembro 2020',
       upto: 'atualmente',
       tasks: [
-        'Desenvolvimento e manutenção de platatorma de CRM e de plataforma de testes de rodagem veicular.',
+        'Desenvolvimento e manutenção de plataforma de CRM e de plataforma de testes de rodagem veicular.',
         'Criação de rotinas, migrações, novas telas e cadastros, testes automatizados.',
-        'Trabalho com sistemas de controle de estoque, rastreamente de veículos, gerenciamento de documentos e outros.',
+        'Trabalho com sistemas de controle de estoque, rastreamento de veículos, gerenciamento de documentos e outros.',
         'HTML/CSS/Bootstrap/JavaScript/Jquery/PHP/Laravel/MySQL/Git',
       ],
     },

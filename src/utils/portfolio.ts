@@ -139,14 +139,15 @@ export const skillsSection: SkillsSectionType = {
         { name: 'Bootstrap', icon: 'logos:bootstrap' },
         { name: 'JQuery', icon: 'skill-icons:jquery' },
         { name: 'reactjs', icon: 'logos:react' },
-        // { name: 'express', icon: 'logos:express' },
+        { name: 'express', icon: 'simple-icons:express' },
         { name: 'nodejs', icon: 'logos:nodejs-icon' },
         { name: 'jest', icon: 'vscode-icons:file-type-jest' },
         { name: 'PHP', icon: 'logos:php' },
         { name: 'PHPUnit', icon: 'vscode-icons:file-type-phpunit' },
         { name: 'laravel', icon: 'logos:laravel' },
         { name: 'AWS S3', icon: 'logos:aws-s3' },
-        //{ name: 'AWS DynamoDB', icon: 'logos:aws-dynamodb' },
+        { name: 'AWS DynamoDB', icon: 'logos:aws-lambda' },
+        { name: 'AWS DynamoDB', icon: 'logos:aws-dynamodb' },
         { name: 'Docker', icon: 'skill-icons:docker' },
         //{ name: 'MongoDB', icon: 'skill-icons:mongodb' },
         //{ name: 'Redis', icon: 'logos:redis' },
@@ -247,6 +248,15 @@ export const experienceSection: ExperienceSectionType = {
 export const projectsSection: ProjectsSectionType = {
   title: 'projetos',
   projects: [
+    {
+      id: getId(),
+      name: 'News Aggregator',
+      url: 'https://main.d2skzx6ijbdpfa.amplifyapp.com/',
+      repo: 'https://github.com/gsilverio7/news-aggregator',
+      img: 'https://raw.githubusercontent.com/gsilverio7/news-aggregator/main/imgs/screenshot.png',
+      year: 2023,
+      tags: ['NodeJs', 'React', 'DynamoDB'],
+    },
     {
       id: getId(),
       name: 'Controle de Estoque',
